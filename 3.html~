@@ -5,9 +5,9 @@ Subu's Test
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<link rel="stylesheet" href="jquery.mobile-1.4.2.min.css">
+<script src="jquery-1.10.2.min.js"></script>
+<script src="jquery.mobile-1.4.2.min.js"></script>
 <link rel="stylesheet" href="jquery-mobile.css">
 <script src="jquery-mobile.js"></script>
 </head>
@@ -16,9 +16,9 @@ Subu's Test
 <h1>Subu's Test</h1>
 </div>
 <div style="width:90%; height:20px; font-family:arial: color:#333; font-size:12px; float:left; text-align:center; padding:5%; color:green;">
-	Good you managed to clear the first level. You are now in the second level.
+	Good you managed to clear the third level. You are now in the fourth level.
 <br />
-<span style="text-align:center; color:red;">This is the second level.</div>
+<span style="text-align:center; color:red;">This is the fourth level.</div>
 </div>
 <br />
 <br />
