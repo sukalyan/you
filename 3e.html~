@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>
+Subu's Test
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<link rel="stylesheet" href="jquery-mobile.css">
+<script src="jquery-mobile.js"></script>
+</head>
+<body>
+<div data-role="header">
+<h1>Subu's Test</h1>
+</div>
+<div style="width:90%; height:20px; font-family:arial: color:#333; font-size:20px; float:left; text-align:center; padding:5%; color:red;">
+	Nehiiiiiiiii. Ye wala galat jawaab. 
+<br />
+Item tujhse ye umeed nehi thi. 
+<br />
+<br />
+<span style="text-align:center; color:red;"> <a href="2.html">Go Back</a> .</div>
+</div>
+<br />
+</body>
+</html>
+
+

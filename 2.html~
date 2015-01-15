@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>
+Subu's Test
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<link rel="stylesheet" href="jquery-mobile.css">
+<script src="jquery-mobile.js"></script>
+</head>
+<body>
+<div data-role="header">
+<h1>Subu's Test</h1>
+</div>
+<div style="width:90%; height:20px; font-family:arial: color:#333; font-size:12px; float:left; text-align:center; padding:5%; color:green;">
+	Good you managed to clear the first level. You are now in the second level.
+<br />
+<span style="text-align:center; color:red;">This is the second level.</div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<form name="login">
+<label for="name">What do I keep on asking you to give me: </label>
+<input type="text" name="userid" />
+<div style="width:100%; height:20px; font-family:arial: color:#333; font-size:12px;">
+	6 lettered
+</div>
+<br />
+<input type="button" onclick="check(this.form)" value="Done"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+/*the following code checkes whether the entered userid and password are matching*/
+if(form.userid.value == "jhappi")
+{
+location="3.html"/*opens the target page while Id & password matches*/
+}
+else
+{
+location="3e.html"/*opens the target page while Id & password matches*/
+}
+}
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  
+  <title>So U are here.</title>
+
+  <!-- filestart -->
+  <link rel="icon" type="image/vnd.microsoft.icon"  href="./demo/img/favicon.ico" />
+  <link rel="Stylesheet" type="text/css" href="./demo/demo.css" />
+  <script type="text/javascript" src="./lib/jquery.1.11.0.min.js"></script>
+  <!-- fileend -->
+<style>
+	html{
+		width:100%;
+		height:100%;
+	}
+</style>
+</head>
+<body style="width:!00%; height:100%;">
+  <!-- headstart -->
+  <header>
+  
+  <!-- headend -->
+
+      <div id="demo2" class="scratchpad" style="position:absolute; top:0px; left:0px; width:100%; height:480px; z-index:10; background:#fff;"></div>
+      <style>
+        .scratchpad{
+          width: 35%;
+          height: 100px;
+          border: solid 1px;
+        }
+
+        @media (max-width: 500px) {
+          .scratchpad {
+            width: 65%;
+          }
+
+        }
+      </style>
+
+      <script type="text/javascript" src="./wScratchPad.min.js"></script>
+      <script type="text/javascript">
+        $('#demo1').wScratchPad({
+          bg: './images/winner.png',
+          fg: '#fff',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo1-percent').html(percent);
+          }
+        });
+
+        $('#demo2').wScratchPad({
+          bg: './images/winner.png',
+          fg: '#fff',
+          'cursor': 'url("./cursors/coin.png") 50 50, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+      </script>
+      
+<div style="width:90%; height:440px; float:left; position:absolute; top:20px; left:5%; overflow:auto; z-index:1;">
+			<div style="width:90%; height:20px; font-family:arial: color:#333; font-size:12px; float:left; text-align:center; padding:5%; color:red; line-height:1.0;">
+	Yaar, mai hamesha sochta hun ki i have to tell a lot of things to you. but then when i really start writing i dont understand ki kya bolu. Mera bhi thoda screw dheela hai na. tumko lagta hai hi ye heera tumhe kaise mil gaya. actually mai koi heera nehi hun. Mai to din bhar sochta rehta hun ki ye item kahin mujhe bhool gai to kya karunga. to tumhe impress karne ko try karta rehta hun. waise mai itna bura to nehi hun. but utna khaas bhi nehi hun. 
+<br />
+Now aapko lagta hogo ki ye banda mujhe impress karne ke liye kitna time waste karta hai. ye sab sada hua cheej banake bheejta hai. (and upar se ye trozon hua to mere mobile se data chura lega.) TO meri item, baat ye hai ki maine aapse kaha ki mai encourage hota hun aapke bare me sochne se, mera time waste nehi hota hai. Ab kaise? To thing is there is something called as Javascript. Mujhe wo thoda seekhna tha. Mujhe man nehi ho raha tha. So aapke liye ye banate time i used javascript. So mai seekh bhi gaya. 
+<br />
+U know I am thoda bahut intelligent. Ek teer se do sikaar. Ha ha. 
+<br />
+Yaar ab message aur kya dun? Bus yehi ki chal jaldi engagement kar lete hain and then aur bhi jaldi shaadi kar lete hain. Dekh agar ek saal ke ander tune merese shaadi nehi ki, to tera to nehi pata, magar mai bhaag jaunga. so soch le.
+<br />
+And I am really going to miss you for these days. So stay in touch warna tera sar phood dunga. Please please please call me atleast once a day. Warna I will go crazy and mera enzyme imbalance ho jaayenge and I will go to Ranchi and will come back by bus. 
+ha ha
+<br />
+And keep smiling. I am mad for your smiles.<br />
+And of course, I love you and keep on falling in love with you more n more everyday. 
+</div>
+</div>
+ 
+</body>
+</html>
